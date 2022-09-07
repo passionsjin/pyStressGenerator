@@ -56,3 +56,7 @@ def main():
     if memory_mb:
         memory_byte = int(memory_mb) * (1024 ** 2)
         memory_stress(memory_byte)
+
+
+if __name__ == '__main__':
+    main()
